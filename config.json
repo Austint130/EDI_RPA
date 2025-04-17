@@ -1,0 +1,75 @@
+{
+    "source_folder": "C:\\Users\\Austin\\Desktop\\EDI_process\\source_folder",
+    "processing_folder": "C:\\Users\\Austin\\Desktop\\EDI_process\\processing_folder",
+    "processed_folder": "C:\\Users\\Austin\\Desktop\\EDI_process\\processed_folder",
+    "secured_folder": "C:\\Users\\Austin\\Desktop\\EDI_process\\secured_folder",
+    "error_folder": "C\\Users\\Austin\\Desktop\\EDI_process\\error_folder",
+    "filezilla_exe_path": "",
+    "ignore_keywords": [
+        "log",
+        "temp",
+        "tmp"
+    ],
+    "edi_extension": ".edi",
+    "schedule_interval_minutes": 2,
+    "auto_restart_schedule": true,
+    "special_instructions": [
+        {
+            "enabled": false,
+            "contains": ".edi",
+            "new_filename": "austinbostin",
+            "open_exe": "",
+            "send_email": false,
+            "email_subject": "hihhih",
+            "email_body": "hihihi"
+        },
+        {
+            "enabled": true,
+            "contains": "yes",
+            "new_filename": "edi",
+            "open_exe": "",
+            "send_email": true,
+            "email_subject": "",
+            "email_body": ""
+        }
+    ],
+    "notification_settings": {
+        "recipient_email": "austinjw75@gmail.com",
+        "send_on_error": true,
+        "send_on_success_summary": false,
+        "include_original_filename": true,
+        "include_new_filename": true,
+        "include_timestamp": true,
+        "include_error_details": true,
+        "include_success_fail_counts": true,
+        "subject_error": "EDI Process Error",
+        "subject_summary": "EDI Process Batch Summary"
+    },
+    "active_client": "Austin Whitworth",
+    "clients": {
+        "Austin Whitworth": {
+            "source_folder": "C:/Users/Austin/Desktop/EDI_process/source_folder",
+            "processing_folder": "C:/Users/Austin/Desktop/EDI_process/processing_folder",
+            "processed_folder": "C:/Users/Austin/Desktop/EDI_process/processed_folder",
+            "secured_folder": "C:/Users/Austin/Desktop/EDI_process/secured_folder",
+            "error_folder": "C:/Users/Austin/Desktop/EDI_process/error_folder",
+            "ftp_host": "",
+            "ftp_port": 21,
+            "ftp_user": "",
+            "ftp_password": "",
+            "ftp_remote_path": "/"
+        },
+        "test": {
+            "source_folder": "C:/Users/Austin/Desktop/EDI_process/secured_folder",
+            "processing_folder": "",
+            "processed_folder": "",
+            "secured_folder": "",
+            "error_folder": "",
+            "ftp_host": "",
+            "ftp_port": 21,
+            "ftp_user": "",
+            "ftp_password": "",
+            "ftp_remote_path": "/"
+        }
+    }
+}
